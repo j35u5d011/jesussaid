@@ -1,0 +1,21 @@
+node_modules/
+
+# Generated output — Render builds these; don't commit them
+public/verse/
+public/verses.json
+public/schedule.json
+
+# Keep the static app shell
+!public/index.html
+!public/manifest.json
+!public/sw.js
+!public/icons/
+!public/get/
+!public/today/
+
+# Local CSV fallback (optional: commit if you want it in the repo for local builds)
+# scripts/compendium.csv
+
+# Env / secrets
+.env
+.env.local

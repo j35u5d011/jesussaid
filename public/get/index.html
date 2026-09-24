@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get the Daily Verse — JesusSaid</title>
+  <meta name="description" content="Add JesusSaid to your phone. One verse from Jesus every morning.">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/icons/icon-192.png">
+  <meta name="theme-color" content="#0f0f0f">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      min-height: 100vh;
+      padding: 24px 16px 48px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .back {
+      font-size: 14px;
+      color: rgba(255,255,255,0.4);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 15px;
+      opacity: 0.55;
+      margin-bottom: 40px;
+      line-height: 1.5;
+    }
+    .step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 28px;
+    }
+    .step-num {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #ffffff;
+      color: #000000;
+      font-size: 15px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .step-content h2 {
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .step-content p {
+      font-size: 14px;
+      opacity: 0.55;
+      line-height: 1.5;
+    }
+    .step-content .note {
+      font-size: 13px;
+      opacity: 0.4;
+      margin-top: 4px;
+    }
+    .divider { height: 1px; background: rgba(255,255,255,0.08); margin: 32px 0; }
+    .install-btn {
+      display: block;
+      background: #ffffff;
+      color: #000000;
+      padding: 18px;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: 700;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 12px;
+    }
+    .install-btn:disabled { opacity: 0.4; cursor: default; }
+    .platform-note {
+      font-size: 13px;
+      opacity: 0.4;
+      text-align: center;
+      line-height: 1.6;
+    }
+    .ios-steps {
+      display: none;
+      background: rgba(255,255,255,0.06);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: 1.7;
+      opacity: 0.8;
+    }
+    .ios-steps.visible { display: block; }
+  </style>
+</head>
+<body>
+  <a href="/" class="back">← JesusSaid</a>
+
+  <h1>Get the<br>Daily Verse</h1>
+  <p class="subtitle">Free. No account. No app store.<br>Just Jesus — every morning at 7am.</p>
+
+  <div class="step">
+    <div class="step-num">1</div>
+    <div class="step-content">
+      <h2>Open this page in Safari</h2>
+      <p>iPhone users must use Safari. Android users can use Chrome or any browser.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">2</div>
+    <div class="step-content">
+      <h2>Tap "Add to Home Screen"</h2>
+      <p>Tap the Share button (box with arrow) at the bottom of Safari, then select "Add to Home Screen."</p>
+      <p class="note">Android: tap the three-dot menu → "Add to Home Screen" or "Install App"</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">3</div>
+    <div class="step-content">
+      <h2>Open JesusSaid from your home screen</h2>
+      <p>Tap the icon that just appeared on your home screen to open the app.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">4</div>
+    <div class="step-content">
+      <h2>Allow notifications</h2>
+      <p>Tap "Allow" when asked. That's it — your first verse arrives tomorrow morning.</p>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div id="ios-instructions" class="ios-steps">
+    <strong>On your iPhone:</strong><br>
+    Tap the <strong>Share</strong> icon (□↑) at the bottom of Safari → scroll down → tap <strong>"Add to Home Screen"</strong> → tap <strong>Add</strong>.
+  </div>
+
+  <button class="install-btn" id="install-btn" onclick="handleInstall()">Add to Home Screen</button>
+  <p class="platform-note" id="platform-note">Works on iPhone (Safari) and Android (Chrome)</p>
+
+  <script>
+    let deferredPrompt = null;
+
+    // Detect iOS
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const isInStandaloneMode = window.matchMedia('(display-mode: standalone)').matches;
+
+    if (isInStandaloneMode) {
+      // Already installed — ask for notification permission
+      document.getElementById('install-btn').textContent = 'Enable Notifications';
+      document.getElementById('platform-note').textContent = 'The app is installed. Tap above to turn on daily verses.';
+      document.getElementById('install-btn').onclick = requestNotifications;
+    } else if (isIOS) {
+      document.getElementById('ios-instructions').classList.add('visible');
+      document.getElementById('install-btn').textContent = 'See Instructions Above ↑';
+      document.getElementById('install-btn').disabled = true;
+      document.getElementById('platform-note').textContent = 'Follow the steps above in Safari.';
+    }
+
+    // Android install prompt
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      document.getElementById('install-btn').disabled = false;
+    });
+
+    function handleInstall() {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then(choice => {
+          if (choice.outcome === 'accepted') {
+            document.getElementById('install-btn').textContent = 'Enable Notifications';
+            document.getElementById('install-btn').onclick = requestNotifications;
+          }
+          deferredPrompt = null;
+        });
+      } else {
+        requestNotifications();
+      }
+    }
+
+    function requestNotifications() {
+      if ('Notification' in window) {
+        Notification.requestPermission().then(perm => {
+          if (perm === 'granted') {
+            document.getElementById('install-btn').textContent = '✓ You\'re all set';
+            document.getElementById('install-btn').disabled = true;
+            document.getElementById('platform-note').textContent = 'Your first verse arrives tomorrow morning.';
+            // OneSignal will handle the actual subscription
+            if (window.OneSignal) {
+              OneSignal.push(() => OneSignal.registerForPushNotifications());
+            }
+          }
+        });
+      }
+    }
+
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+  </script>
+</body>
+</html>
