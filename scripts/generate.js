@@ -27,15 +27,14 @@ const SOURCE_COLORS = {
   Peter:     { bg: '#334155', label: 'Gospel of Peter' },
 };
 
-// 7-day color cycle (bg, text)
 const DAY_COLORS = [
-  { bg: '#b91c1c', text: '#ffffff' }, // red
-  { bg: '#15803d', text: '#ffffff' }, // green
-  { bg: '#1d4ed8', text: '#ffffff' }, // blue
-  { bg: '#7e22ce', text: '#ffffff' }, // purple
-  { bg: '#000000', text: '#ffffff' }, // black
-  { bg: '#ffffff', text: '#000000' }, // white
-  { bg: '#c2410c', text: '#ffffff' }, // burnt orange
+  { bg: '#000000', text: '#ffffff' },
+  { bg: '#0f172a', text: '#ffffff' },
+  { bg: '#1a1a2e', text: '#ffffff' },
+  { bg: '#0d1b2a', text: '#ffffff' },
+  { bg: '#1a0a0a', text: '#ffffff' },
+  { bg: '#0a1a0a', text: '#ffffff' },
+  { bg: '#1a1500', text: '#ffffff' },
 ];
 
 async function fetchSheet() {
@@ -170,17 +169,16 @@ function buildVerseHTML(group, colorIndex) {
     :root {
       --bg: ${color.bg};
       --fg: ${color.text};
-      --card-bg: rgba(255,255,255,0.08);
-      --card-fg: ${color.text};
+      --card-bg: rgba(255,255,255,0.06);
       --radius: 12px;
-      --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
     body {
       font-family: var(--font);
       background: var(--bg);
       color: var(--fg);
       min-height: 100vh;
-      padding: 0 0 120px 0;
+      padding: 0 0 60px 0;
     }
     .top-bar {
       display: flex;
@@ -200,7 +198,7 @@ function buildVerseHTML(group, colorIndex) {
     }
     .teaching-title {
       font-size: 22px;
-      font-weight: 800;
+      font-weight: 900;
       line-height: 1.2;
       margin-bottom: 20px;
     }
@@ -214,11 +212,12 @@ function buildVerseHTML(group, colorIndex) {
       opacity: 0.95;
     }
     .core-message {
-      margin: 20px 16px 0;
       font-size: 15px;
-      opacity: 0.75;
+      opacity: 0.65;
       line-height: 1.5;
-      font-style: italic;
+      margin-bottom: 20px;
+      font-style: normal;
+      letter-spacing: 0.01em;
     }
     .action-bar {
       display: flex;
@@ -302,18 +301,15 @@ function buildVerseHTML(group, colorIndex) {
       opacity: 0.85;
     }
     .context-body p + p { margin-top: 1em; }
-    .sticky-bar {
-      position: fixed;
-      bottom: 0; left: 0; right: 0;
-      background: var(--bg);
-      border-top: 1px solid rgba(255,255,255,0.1);
-      padding: 12px 16px;
-      display: flex;
-      gap: 10px;
+    .next-bar {
+      padding: 0 16px 24px;
+    }
+    .next-btn {
+      display: block;
+      text-align: center;
     }
     @media (min-width: 600px) {
-      .hero, .action-bar, .parallels, .context-section, .core-message { max-width: 600px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; }
-      .sticky-bar { max-width: 600px; left: 50%; transform: translateX(-50%); border-radius: 12px 12px 0 0; }
+      .hero, .action-bar, .parallels, .context-section, .core-message, .next-bar { max-width: 600px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; }
     }
   </style>
 </head>
@@ -325,22 +321,20 @@ function buildVerseHTML(group, colorIndex) {
   <div class="hero">
     <p class="source-line">${primary.reference}</p>
     <h1 class="teaching-title">${primary.title}</h1>
+    ${primary.core_message ? `<p class="core-message">${primary.core_message}</p>` : ''}
     <blockquote class="jesus-words">${primary.jesus_words}</blockquote>
   </div>
-
-  <p class="core-message">${primary.core_message || ''}</p>
 
   <div class="action-bar">
     <button class="btn btn-primary" onclick="shareVerse()">Share This</button>
     <a href="/get" class="btn btn-secondary">Get Daily Verse</a>
   </div>
 
-  ${parallels.length > 0 ? '<div class="divider"></div>' + parallelsHTML : ''}
   ${primary.context ? '<div class="divider"></div>' + contextHTML : ''}
-
-  <div class="sticky-bar">
-    <button class="btn btn-primary" onclick="shareVerse()">Share This</button>
-    <a href="/get" class="btn btn-secondary">Get Daily Verse</a>
+  ${parallels.length > 0 ? '<div class="divider"></div>' + parallelsHTML : ''}
+  <div class="divider"></div>
+  <div class="next-bar">
+    <a id="next-link" href="#" class="btn btn-secondary next-btn">Next Verse →</a>
   </div>
 
   <script>
@@ -354,6 +348,17 @@ function buildVerseHTML(group, colorIndex) {
           .then(() => alert('Copied to clipboard'));
       }
     }
+    // Next verse button — random pick from verses.json
+    fetch('/verses.json')
+      .then(r => r.json())
+      .then(verses => {
+        const slugs = verses.filter(v => v.include && v.slug && v.slug !== ${JSON.stringify(slug)}).map(v => v.slug);
+        if (slugs.length) {
+          const next = slugs[Math.floor(Math.random() * slugs.length)];
+          document.getElementById('next-link').href = '/verse/' + next;
+        }
+      })
+      .catch(() => {});
     // Register service worker
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js');
