@@ -1,0 +1,1827 @@
+[
+  {
+    "date": "2027-01-01",
+    "gid": "1176",
+    "slug": "father-forgive-them"
+  },
+  {
+    "date": "2027-01-02",
+    "gid": "1199",
+    "slug": "those-who-claim-to-see"
+  },
+  {
+    "date": "2027-01-03",
+    "gid": "1212",
+    "slug": "the-world-will-hate-you"
+  },
+  {
+    "date": "2027-01-04",
+    "gid": "1068",
+    "slug": "sell-what-you-have"
+  },
+  {
+    "date": "2027-01-05",
+    "gid": "1012",
+    "slug": "love-your-enemies"
+  },
+  {
+    "date": "2027-01-06",
+    "gid": "1197",
+    "slug": "before-abraham-was"
+  },
+  {
+    "date": "2027-01-07",
+    "gid": "1096",
+    "slug": "put-your-sword-back"
+  },
+  {
+    "date": "2027-01-08",
+    "gid": "1092",
+    "slug": "the-woman-with-the-perfume"
+  },
+  {
+    "date": "2027-01-09",
+    "gid": "1118",
+    "slug": "the-yeast-of-the-pharisees-and-herod"
+  },
+  {
+    "date": "2027-01-10",
+    "gid": "1173",
+    "slug": "beware-the-long-robes"
+  },
+  {
+    "date": "2027-01-11",
+    "gid": "1169",
+    "slug": "zacchaeus"
+  },
+  {
+    "date": "2027-01-12",
+    "gid": "1273",
+    "slug": "i-come-to-abolish-sacrifices"
+  },
+  {
+    "date": "2027-01-13",
+    "gid": "1001",
+    "slug": "jesus-is-tempted"
+  },
+  {
+    "date": "2027-01-14",
+    "gid": "1105",
+    "slug": "exorcism-at-capernium"
+  },
+  {
+    "date": "2027-01-15",
+    "gid": "1054",
+    "slug": "i-have-compassion"
+  },
+  {
+    "date": "2027-01-16",
+    "gid": "1186",
+    "slug": "your-son-will-live"
+  },
+  {
+    "date": "2027-01-17",
+    "gid": "1095",
+    "slug": "gethsemane"
+  },
+  {
+    "date": "2027-01-18",
+    "gid": "1180",
+    "slug": "follow-me"
+  },
+  {
+    "date": "2027-01-19",
+    "gid": "1153",
+    "slug": "the-narrow-door"
+  },
+  {
+    "date": "2027-01-20",
+    "gid": "1015",
+    "slug": "fasting"
+  },
+  {
+    "date": "2027-01-21",
+    "gid": "1152",
+    "slug": "daughter-of-abraham"
+  },
+  {
+    "date": "2027-01-22",
+    "gid": "1149",
+    "slug": "not-peace-but-division"
+  },
+  {
+    "date": "2027-01-23",
+    "gid": "1161",
+    "slug": "two-masters"
+  },
+  {
+    "date": "2027-01-24",
+    "gid": "1198",
+    "slug": "neither-this-man-nor-his-parents"
+  },
+  {
+    "date": "2027-01-25",
+    "gid": "1256",
+    "slug": "the-images-that-came-before-you"
+  },
+  {
+    "date": "2027-01-26",
+    "gid": "1191",
+    "slug": "the-flesh-counts-for-nothing"
+  },
+  {
+    "date": "2027-01-27",
+    "gid": "1227",
+    "slug": "go-to-james"
+  },
+  {
+    "date": "2027-01-28",
+    "gid": "1019",
+    "slug": "good-father"
+  },
+  {
+    "date": "2027-01-29",
+    "gid": "1050",
+    "slug": "you-give-them-something-to-eat"
+  },
+  {
+    "date": "2027-01-30",
+    "gid": "1055",
+    "slug": "the-yeast-of-the-pharisees"
+  },
+  {
+    "date": "2027-01-31",
+    "gid": "1081",
+    "slug": "the-god-of-the-living"
+  },
+  {
+    "date": "2027-02-01",
+    "gid": "1202",
+    "slug": "lazarus-has-fallen-asleep"
+  },
+  {
+    "date": "2027-02-02",
+    "gid": "1083",
+    "slug": "whose-son"
+  },
+  {
+    "date": "2027-02-03",
+    "gid": "1075",
+    "slug": "the-withered-fig-tree"
+  },
+  {
+    "date": "2027-02-04",
+    "gid": "1185",
+    "slug": "food-you-know-nothing-about"
+  },
+  {
+    "date": "2027-02-05",
+    "gid": "1166",
+    "slug": "the-persistent-widow"
+  },
+  {
+    "date": "2027-02-06",
+    "gid": "1151",
+    "slug": "repent-or-perish"
+  },
+  {
+    "date": "2027-02-07",
+    "gid": "1117",
+    "slug": "compassion-for-the-crowd"
+  },
+  {
+    "date": "2027-02-08",
+    "gid": "1238",
+    "slug": "become-passers-by"
+  },
+  {
+    "date": "2027-02-09",
+    "gid": "1116",
+    "slug": "ephphatha"
+  },
+  {
+    "date": "2027-02-10",
+    "gid": "1247",
+    "slug": "blessed-is-the-one-who-has-suffered"
+  },
+  {
+    "date": "2027-02-11",
+    "gid": "1148",
+    "slug": "watchfulness"
+  },
+  {
+    "date": "2027-02-12",
+    "gid": "1218",
+    "slug": "i-said-nothing-in-secret"
+  },
+  {
+    "date": "2027-02-13",
+    "gid": "1242",
+    "slug": "children-of-the-light"
+  },
+  {
+    "date": "2027-02-14",
+    "gid": "1108",
+    "slug": "which-is-lawful"
+  },
+  {
+    "date": "2027-02-15",
+    "gid": "1030",
+    "slug": "mercy-not-sacrifice"
+  },
+  {
+    "date": "2027-02-16",
+    "gid": "1254",
+    "slug": "renounce-power"
+  },
+  {
+    "date": "2027-02-17",
+    "gid": "1018",
+    "slug": "planks"
+  },
+  {
+    "date": "2027-02-18",
+    "gid": "1126",
+    "slug": "the-god-of-the-living"
+  },
+  {
+    "date": "2027-02-19",
+    "gid": "1190",
+    "slug": "the-bread-of-life"
+  },
+  {
+    "date": "2027-02-20",
+    "gid": "1239",
+    "slug": "love-the-tree-or-its-fruit"
+  },
+  {
+    "date": "2027-02-21",
+    "gid": "1233",
+    "slug": "fast-from-the-world"
+  },
+  {
+    "date": "2027-02-22",
+    "gid": "1000",
+    "slug": "the-baptism-of-jesus"
+  },
+  {
+    "date": "2027-02-23",
+    "gid": "1145",
+    "slug": "woes-on-the-pharisees"
+  },
+  {
+    "date": "2027-02-24",
+    "gid": "1109",
+    "slug": "blaspheming-spirit"
+  },
+  {
+    "date": "2027-02-25",
+    "gid": "1219",
+    "slug": "no-power-except-from-above"
+  },
+  {
+    "date": "2027-02-26",
+    "gid": "1009",
+    "slug": "adultery"
+  },
+  {
+    "date": "2027-02-27",
+    "gid": "1051",
+    "slug": "take-courage-it-is-i"
+  },
+  {
+    "date": "2027-02-28",
+    "gid": "1071",
+    "slug": "not-so-with-you"
+  },
+  {
+    "date": "2027-03-01",
+    "gid": "1057",
+    "slug": "deny-yourself-and-follow"
+  },
+  {
+    "date": "2027-03-02",
+    "gid": "1063",
+    "slug": "the-millstone-and-the-hand"
+  },
+  {
+    "date": "2027-03-03",
+    "gid": "1016",
+    "slug": "treasure"
+  },
+  {
+    "date": "2027-03-04",
+    "gid": "1043",
+    "slug": "parable-of-the-sower"
+  },
+  {
+    "date": "2027-03-05",
+    "gid": "1250",
+    "slug": "knowing-the-all"
+  },
+  {
+    "date": "2027-03-06",
+    "gid": "1034",
+    "slug": "the-harvest-is-plentiful"
+  },
+  {
+    "date": "2027-03-07",
+    "gid": "1241",
+    "slug": "the-solitary-will-find-it"
+  },
+  {
+    "date": "2027-03-08",
+    "gid": "1187",
+    "slug": "do-you-want-to-get-well"
+  },
+  {
+    "date": "2027-03-09",
+    "gid": "1215",
+    "slug": "the-hour-has-come"
+  },
+  {
+    "date": "2027-03-10",
+    "gid": "1079",
+    "slug": "the-wedding-banquet"
+  },
+  {
+    "date": "2027-03-11",
+    "gid": "1020",
+    "slug": "narrow-gate"
+  },
+  {
+    "date": "2027-03-12",
+    "gid": "1098",
+    "slug": "three-times"
+  },
+  {
+    "date": "2027-03-13",
+    "gid": "1127",
+    "slug": "beware-the-robe-wearers"
+  },
+  {
+    "date": "2027-03-14",
+    "gid": "1056",
+    "slug": "who-do-you-say-i-am"
+  },
+  {
+    "date": "2027-03-14",
+    "gid": "1032",
+    "slug": "one-touch"
+  },
+  {
+    "date": "2027-03-15",
+    "gid": "1025",
+    "slug": "faith-of-soldier"
+  },
+  {
+    "date": "2027-03-16",
+    "gid": "1007",
+    "slug": "anger-is-murder"
+  },
+  {
+    "date": "2027-03-17",
+    "gid": "1017",
+    "slug": "dont-fret"
+  },
+  {
+    "date": "2027-03-18",
+    "gid": "1011",
+    "slug": "revenge"
+  },
+  {
+    "date": "2027-03-19",
+    "gid": "1209",
+    "slug": "the-way-the-truth-the-life"
+  },
+  {
+    "date": "2027-03-20",
+    "gid": "1265",
+    "slug": "renounce-the-world"
+  },
+  {
+    "date": "2027-03-21",
+    "gid": "1086",
+    "slug": "not-one-stone"
+  },
+  {
+    "date": "2027-03-22",
+    "gid": "1090",
+    "slug": "sheep-and-goats"
+  },
+  {
+    "date": "2027-03-23",
+    "gid": "1046",
+    "slug": "weeds-and-wheat-explained"
+  },
+  {
+    "date": "2027-03-24",
+    "gid": "1129",
+    "slug": "she-did-what-she-could"
+  },
+  {
+    "date": "2027-03-25",
+    "gid": "1137",
+    "slug": "the-widows-son-at-nain"
+  },
+  {
+    "date": "2027-03-26",
+    "gid": "1170",
+    "slug": "the-ten-minas"
+  },
+  {
+    "date": "2027-03-27",
+    "gid": "1123",
+    "slug": "greatness-is-downward"
+  },
+  {
+    "date": "2027-03-28",
+    "gid": "1124",
+    "slug": "your-faith-has-healed-you"
+  },
+  {
+    "date": "2027-03-29",
+    "gid": "1234",
+    "slug": "drunk-and-blind"
+  },
+  {
+    "date": "2027-03-30",
+    "gid": "1110",
+    "slug": "lamps"
+  },
+  {
+    "date": "2027-03-31",
+    "gid": "1112",
+    "slug": "mustard-seed"
+  },
+  {
+    "date": "2027-04-01",
+    "gid": "1262",
+    "slug": "dog-in-the-manger"
+  },
+  {
+    "date": "2027-04-02",
+    "gid": "1052",
+    "slug": "washing-hands"
+  },
+  {
+    "date": "2027-04-03",
+    "gid": "1026",
+    "slug": "let-the-dead-bury-the-dead"
+  },
+  {
+    "date": "2027-04-04",
+    "gid": "1240",
+    "slug": "two-at-peace"
+  },
+  {
+    "date": "2027-04-05",
+    "gid": "1010",
+    "slug": "oaths"
+  },
+  {
+    "date": "2027-04-06",
+    "gid": "1179",
+    "slug": "what-do-you-want"
+  },
+  {
+    "date": "2027-04-07",
+    "gid": "1158",
+    "slug": "the-lost-sheep"
+  },
+  {
+    "date": "2027-04-08",
+    "gid": "1132",
+    "slug": "sent-to-proclaim-the-kingdom"
+  },
+  {
+    "date": "2027-04-09",
+    "gid": "1040",
+    "slug": "fruit-and-words"
+  },
+  {
+    "date": "2027-04-10",
+    "gid": "1205",
+    "slug": "not-to-judge-but-to-save"
+  },
+  {
+    "date": "2027-04-11",
+    "gid": "1214",
+    "slug": "your-grief-will-turn-to-joy"
+  },
+  {
+    "date": "2027-04-12",
+    "gid": "1162",
+    "slug": "the-rich-man-and-lazarus"
+  },
+  {
+    "date": "2027-04-13",
+    "gid": "1259",
+    "slug": "give-what-you-have"
+  },
+  {
+    "date": "2027-04-14",
+    "gid": "1047",
+    "slug": "the-pearl"
+  },
+  {
+    "date": "2027-04-15",
+    "gid": "1140",
+    "slug": "the-sending-of-the-seventy-two"
+  },
+  {
+    "date": "2027-04-16",
+    "gid": "1164",
+    "slug": "ten-lepers"
+  },
+  {
+    "date": "2027-04-17",
+    "gid": "1080",
+    "slug": "caesar-and-god"
+  },
+  {
+    "date": "2027-04-18",
+    "gid": "1211",
+    "slug": "remain-in-me"
+  },
+  {
+    "date": "2027-04-19",
+    "gid": "1255",
+    "slug": "the-light-in-the-image"
+  },
+  {
+    "date": "2027-04-20",
+    "gid": "1222",
+    "slug": "blessed-are-those-who-have-not-seen"
+  },
+  {
+    "date": "2027-04-21",
+    "gid": "1194",
+    "slug": "the-light-of-the-world"
+  },
+  {
+    "date": "2027-04-22",
+    "gid": "1088",
+    "slug": "ten-virgins"
+  },
+  {
+    "date": "2027-04-23",
+    "gid": "1070",
+    "slug": "going-up-to-jerusalem"
+  },
+  {
+    "date": "2027-04-24",
+    "gid": "1113",
+    "slug": "legion"
+  },
+  {
+    "date": "2027-04-25",
+    "gid": "1115",
+    "slug": "the-syrophoenician-woman"
+  },
+  {
+    "date": "2027-04-26",
+    "gid": "1122",
+    "slug": "whoever-is-not-against-us-is-for-us"
+  },
+  {
+    "date": "2027-04-27",
+    "gid": "1267",
+    "slug": "flesh-and-soul"
+  },
+  {
+    "date": "2027-04-28",
+    "gid": "1107",
+    "slug": "levi"
+  },
+  {
+    "date": "2027-04-29",
+    "gid": "1217",
+    "slug": "that-they-may-be-one"
+  },
+  {
+    "date": "2027-04-30",
+    "gid": "1229",
+    "slug": "what-no-eye-has-seen"
+  },
+  {
+    "date": "2027-05-01",
+    "gid": "1221",
+    "slug": "peace-be-with-you"
+  },
+  {
+    "date": "2027-05-02",
+    "gid": "1246",
+    "slug": "the-world-is-a-corpse"
+  },
+  {
+    "date": "2027-05-03",
+    "gid": "1207",
+    "slug": "one-of-you-will-betray-me"
+  },
+  {
+    "date": "2027-05-04",
+    "gid": "1266",
+    "slug": "whoever-finds-himself"
+  },
+  {
+    "date": "2027-05-05",
+    "gid": "1154",
+    "slug": "sorrow-for-jerusalem"
+  },
+  {
+    "date": "2027-05-06",
+    "gid": "1172",
+    "slug": "children-of-the-resurrection"
+  },
+  {
+    "date": "2027-05-07",
+    "gid": "1082",
+    "slug": "the-whole-law"
+  },
+  {
+    "date": "2027-05-08",
+    "gid": "1039",
+    "slug": "sabbath-grain"
+  },
+  {
+    "date": "2027-05-09",
+    "gid": "1074",
+    "slug": "house-of-prayer"
+  },
+  {
+    "date": "2027-05-10",
+    "gid": "1243",
+    "slug": "it-has-already-come"
+  },
+  {
+    "date": "2027-05-11",
+    "gid": "1128",
+    "slug": "the-widows-two-coins"
+  },
+  {
+    "date": "2027-05-12",
+    "gid": "1269",
+    "slug": "what-matter-cannot-hold"
+  },
+  {
+    "date": "2027-05-13",
+    "gid": "1220",
+    "slug": "my-god-and-your-god"
+  },
+  {
+    "date": "2027-05-14",
+    "gid": "1252",
+    "slug": "nothing-in-the-cistern"
+  },
+  {
+    "date": "2027-05-15",
+    "gid": "1268",
+    "slug": "mary-made-living-spirit"
+  },
+  {
+    "date": "2027-05-16",
+    "gid": "1093",
+    "slug": "the-last-supper"
+  },
+  {
+    "date": "2027-05-17",
+    "gid": "1077",
+    "slug": "the-two-sons"
+  },
+  {
+    "date": "2027-05-18",
+    "gid": "1042",
+    "slug": "jesus-true-family"
+  },
+  {
+    "date": "2027-05-19",
+    "gid": "1245",
+    "slug": "circumcision-in-spirit"
+  },
+  {
+    "date": "2027-05-20",
+    "gid": "1099",
+    "slug": "before-pilate"
+  },
+  {
+    "date": "2027-05-21",
+    "gid": "1150",
+    "slug": "interpreting-the-times"
+  },
+  {
+    "date": "2027-05-22",
+    "gid": "1178",
+    "slug": "peace-be-with-you"
+  },
+  {
+    "date": "2027-05-23",
+    "gid": "1213",
+    "slug": "the-spirit-of-truth"
+  },
+  {
+    "date": "2027-05-24",
+    "gid": "1264",
+    "slug": "drink-from-my-mouth"
+  },
+  {
+    "date": "2027-05-25",
+    "gid": "1037",
+    "slug": "woe-on-the-towns"
+  },
+  {
+    "date": "2027-05-26",
+    "gid": "1003",
+    "slug": "fishers-of-people"
+  },
+  {
+    "date": "2027-05-27",
+    "gid": "1184",
+    "slug": "living-water-at-the-well"
+  },
+  {
+    "date": "2027-05-28",
+    "gid": "1085",
+    "slug": "woe-to-you"
+  },
+  {
+    "date": "2027-05-29",
+    "gid": "1142",
+    "slug": "only-one-thing-is-needed"
+  },
+  {
+    "date": "2027-05-30",
+    "gid": "1237",
+    "slug": "grapevine-outside-the-father"
+  },
+  {
+    "date": "2027-05-31",
+    "gid": "1035",
+    "slug": "whom-to-fear"
+  },
+  {
+    "date": "2027-06-01",
+    "gid": "1143",
+    "slug": "ask-seek-knock"
+  },
+  {
+    "date": "2027-06-02",
+    "gid": "1064",
+    "slug": "the-one-that-wandered"
+  },
+  {
+    "date": "2027-06-03",
+    "gid": "1058",
+    "slug": "the-transfiguration"
+  },
+  {
+    "date": "2027-06-04",
+    "gid": "1257",
+    "slug": "adam-was-not-worthy"
+  },
+  {
+    "date": "2027-06-05",
+    "gid": "1159",
+    "slug": "the-lost-coin"
+  },
+  {
+    "date": "2027-06-06",
+    "gid": "1260",
+    "slug": "the-empty-jar"
+  },
+  {
+    "date": "2027-06-07",
+    "gid": "1111",
+    "slug": "growing-seed"
+  },
+  {
+    "date": "2027-06-08",
+    "gid": "1094",
+    "slug": "before-the-rooster-crows"
+  },
+  {
+    "date": "2027-06-09",
+    "gid": "1196",
+    "slug": "children-of-abraham"
+  },
+  {
+    "date": "2027-06-10",
+    "gid": "1189",
+    "slug": "the-scriptures-testify"
+  },
+  {
+    "date": "2027-06-11",
+    "gid": "1059",
+    "slug": "faith-like-a-mustard-seed"
+  },
+  {
+    "date": "2027-06-12",
+    "gid": "1106",
+    "slug": "that-is-why-i-came"
+  },
+  {
+    "date": "2027-06-13",
+    "gid": "1002",
+    "slug": "the-kingdom-has-come-near"
+  },
+  {
+    "date": "2027-06-14",
+    "gid": "1177",
+    "slug": "on-the-road-to-emmaus"
+  },
+  {
+    "date": "2027-06-15",
+    "gid": "1195",
+    "slug": "from-above"
+  },
+  {
+    "date": "2027-06-16",
+    "gid": "1210",
+    "slug": "another-advocate"
+  },
+  {
+    "date": "2027-06-17",
+    "gid": "1053",
+    "slug": "the-canaanite-woman"
+  },
+  {
+    "date": "2027-06-18",
+    "gid": "1033",
+    "slug": "healing-the-blind"
+  },
+  {
+    "date": "2027-06-19",
+    "gid": "1156",
+    "slug": "the-great-banquet"
+  },
+  {
+    "date": "2027-06-20",
+    "gid": "1144",
+    "slug": "the-lamp-of-the-body"
+  },
+  {
+    "date": "2027-06-21",
+    "gid": "1084",
+    "slug": "one-teacher"
+  },
+  {
+    "date": "2027-06-22",
+    "gid": "1049",
+    "slug": "a-prophet-without-honor"
+  },
+  {
+    "date": "2027-06-23",
+    "gid": "1067",
+    "slug": "let-the-children-come"
+  },
+  {
+    "date": "2027-06-24",
+    "gid": "1228",
+    "slug": "the-one-not-born-of-woman"
+  },
+  {
+    "date": "2027-06-25",
+    "gid": "1141",
+    "slug": "the-good-samaritan"
+  },
+  {
+    "date": "2027-06-26",
+    "gid": "1174",
+    "slug": "not-my-will"
+  },
+  {
+    "date": "2027-06-27",
+    "gid": "1147",
+    "slug": "the-rich-fool"
+  },
+  {
+    "date": "2027-06-28",
+    "gid": "1013",
+    "slug": "charity"
+  },
+  {
+    "date": "2027-06-29",
+    "gid": "1008",
+    "slug": "adultery-and-lust"
+  },
+  {
+    "date": "2027-06-30",
+    "gid": "1183",
+    "slug": "born-of-the-spirit"
+  },
+  {
+    "date": "2027-07-01",
+    "gid": "1136",
+    "slug": "a-tree-and-its-fruit"
+  },
+  {
+    "date": "2027-07-02",
+    "gid": "1078",
+    "slug": "the-rejected-stone"
+  },
+  {
+    "date": "2027-07-03",
+    "gid": "1182",
+    "slug": "cleansing-the-temple"
+  },
+  {
+    "date": "2027-07-04",
+    "gid": "1121",
+    "slug": "everything-is-possible-for-the-one-who-trusts"
+  },
+  {
+    "date": "2027-07-05",
+    "gid": "1100",
+    "slug": "the-cry-from-the-cross"
+  },
+  {
+    "date": "2027-07-06",
+    "gid": "1201",
+    "slug": "i-have-said-you-are-gods"
+  },
+  {
+    "date": "2027-07-07",
+    "gid": "1028",
+    "slug": "go"
+  },
+  {
+    "date": "2027-07-08",
+    "gid": "1076",
+    "slug": "by-what-authority"
+  },
+  {
+    "date": "2027-07-09",
+    "gid": "1160",
+    "slug": "the-lost-son"
+  },
+  {
+    "date": "2027-07-10",
+    "gid": "1133",
+    "slug": "fishers-of-people"
+  },
+  {
+    "date": "2027-07-11",
+    "gid": "1271",
+    "slug": "where-the-mind-is"
+  },
+  {
+    "date": "2027-07-12",
+    "gid": "1171",
+    "slug": "render-to-caesar"
+  },
+  {
+    "date": "2027-07-13",
+    "gid": "1135",
+    "slug": "blessings-and-woes"
+  },
+  {
+    "date": "2027-07-14",
+    "gid": "1230",
+    "slug": "the-end-is-the-beginning"
+  },
+  {
+    "date": "2027-07-15",
+    "gid": "1216",
+    "slug": "protect-them-from-the-evil-one"
+  },
+  {
+    "date": "2027-07-16",
+    "gid": "1097",
+    "slug": "before-the-sanhedrin"
+  },
+  {
+    "date": "2027-07-17",
+    "gid": "1251",
+    "slug": "bring-it-forth"
+  },
+  {
+    "date": "2027-07-18",
+    "gid": "1120",
+    "slug": "lose-your-life-to-find-it"
+  },
+  {
+    "date": "2027-07-19",
+    "gid": "1223",
+    "slug": "breakfast-on-the-shore"
+  },
+  {
+    "date": "2027-07-20",
+    "gid": "1258",
+    "slug": "body-depending-on-body"
+  },
+  {
+    "date": "2027-07-21",
+    "gid": "1103",
+    "slug": "jesus-first-preaching"
+  },
+  {
+    "date": "2027-07-22",
+    "gid": "1272",
+    "slug": "my-power-my-power"
+  },
+  {
+    "date": "2027-07-23",
+    "gid": "1062",
+    "slug": "become-like-children"
+  },
+  {
+    "date": "2027-07-24",
+    "gid": "1146",
+    "slug": "warnings-and-encouragements"
+  },
+  {
+    "date": "2027-07-25",
+    "gid": "1089",
+    "slug": "bags-of-gold"
+  },
+  {
+    "date": "2027-07-26",
+    "gid": "1249",
+    "slug": "do-not-become-a-corpse"
+  },
+  {
+    "date": "2027-07-27",
+    "gid": "1192",
+    "slug": "judge-rightly"
+  },
+  {
+    "date": "2027-07-28",
+    "gid": "1021",
+    "slug": "by-their-fruits"
+  },
+  {
+    "date": "2027-07-29",
+    "gid": "1206",
+    "slug": "wash-one-anothers-feet"
+  },
+  {
+    "date": "2027-07-30",
+    "gid": "1027",
+    "slug": "jesus-calms-the-storm"
+  },
+  {
+    "date": "2027-07-31",
+    "gid": "1066",
+    "slug": "seventy-seven-times"
+  },
+  {
+    "date": "2027-08-01",
+    "gid": "1072",
+    "slug": "what-do-you-want"
+  },
+  {
+    "date": "2027-08-02",
+    "gid": "1125",
+    "slug": "anger"
+  },
+  {
+    "date": "2027-08-03",
+    "gid": "1188",
+    "slug": "the-son-does-what-the-father-does"
+  },
+  {
+    "date": "2027-08-04",
+    "gid": "1041",
+    "slug": "the-sign-of-jonah"
+  },
+  {
+    "date": "2027-08-05",
+    "gid": "1208",
+    "slug": "in-my-fathers-house"
+  },
+  {
+    "date": "2027-08-06",
+    "gid": "1193",
+    "slug": "rivers-of-living-water"
+  },
+  {
+    "date": "2027-08-07",
+    "gid": "1073",
+    "slug": "the-donkey-and-the-colt"
+  },
+  {
+    "date": "2027-08-08",
+    "gid": "1061",
+    "slug": "the-temple-tax"
+  },
+  {
+    "date": "2027-08-09",
+    "gid": "1004",
+    "slug": "the-beatitudes"
+  },
+  {
+    "date": "2027-08-10",
+    "gid": "1270",
+    "slug": "peace-be-with-you"
+  },
+  {
+    "date": "2027-08-11",
+    "gid": "1048",
+    "slug": "the-net"
+  },
+  {
+    "date": "2027-08-12",
+    "gid": "1087",
+    "slug": "the-day-and-hour-unknown"
+  },
+  {
+    "date": "2027-08-13",
+    "gid": "1181",
+    "slug": "water-into-wine"
+  },
+  {
+    "date": "2027-08-14",
+    "gid": "1134",
+    "slug": "i-came-for-the-sick"
+  },
+  {
+    "date": "2027-08-15",
+    "gid": "1175",
+    "slug": "you-say-that-i-am"
+  },
+  {
+    "date": "2027-08-16",
+    "gid": "1029",
+    "slug": "healed-paralytic"
+  },
+  {
+    "date": "2027-08-17",
+    "gid": "1102",
+    "slug": "the-great-commission"
+  },
+  {
+    "date": "2027-08-18",
+    "gid": "1044",
+    "slug": "weeds-and-wheat"
+  },
+  {
+    "date": "2027-08-19",
+    "gid": "1022",
+    "slug": "lord-lord"
+  },
+  {
+    "date": "2027-08-20",
+    "gid": "1104",
+    "slug": "recruiting-the-first-disciples"
+  },
+  {
+    "date": "2027-08-21",
+    "gid": "1231",
+    "slug": "five-trees-in-paradise"
+  },
+  {
+    "date": "2027-08-22",
+    "gid": "1261",
+    "slug": "testing-the-sword"
+  },
+  {
+    "date": "2027-08-23",
+    "gid": "1167",
+    "slug": "the-pharisee-and-the-tax-collector"
+  },
+  {
+    "date": "2027-08-24",
+    "gid": "1165",
+    "slug": "the-coming-of-the-kingdom-of-god"
+  },
+  {
+    "date": "2027-08-25",
+    "gid": "1253",
+    "slug": "found-the-body"
+  },
+  {
+    "date": "2027-08-26",
+    "gid": "1091",
+    "slug": "two-days-to-passover"
+  },
+  {
+    "date": "2027-08-27",
+    "gid": "1163",
+    "slug": "sin-faith-duty"
+  },
+  {
+    "date": "2027-08-28",
+    "gid": "1203",
+    "slug": "i-am-the-resurrection"
+  },
+  {
+    "date": "2027-08-29",
+    "gid": "1200",
+    "slug": "the-good-shepherd"
+  },
+  {
+    "date": "2027-08-30",
+    "gid": "1130",
+    "slug": "the-last-supper"
+  },
+  {
+    "date": "2027-08-31",
+    "gid": "1005",
+    "slug": "salt-and-light"
+  },
+  {
+    "date": "2027-09-01",
+    "gid": "1014",
+    "slug": "lords-prayer"
+  },
+  {
+    "date": "2027-09-02",
+    "gid": "1114",
+    "slug": "it-is-i"
+  },
+  {
+    "date": "2027-09-03",
+    "gid": "1248",
+    "slug": "while-you-are-alive"
+  },
+  {
+    "date": "2027-09-04",
+    "gid": "1038",
+    "slug": "come-to-me-and-rest"
+  },
+  {
+    "date": "2027-09-05",
+    "gid": "1204",
+    "slug": "lazarus-come-out"
+  },
+  {
+    "date": "2027-09-06",
+    "gid": "1235",
+    "slug": "great-wealth-in-poverty"
+  },
+  {
+    "date": "2027-09-07",
+    "gid": "1065",
+    "slug": "where-two-or-three-gather"
+  },
+  {
+    "date": "2027-09-08",
+    "gid": "1138",
+    "slug": "she-loved-much"
+  },
+  {
+    "date": "2027-09-09",
+    "gid": "1045",
+    "slug": "mustard-seed"
+  },
+  {
+    "date": "2027-09-10",
+    "gid": "1139",
+    "slug": "an-unbelieving-generation"
+  },
+  {
+    "date": "2027-09-11",
+    "gid": "1226",
+    "slug": "the-lion-consumed"
+  },
+  {
+    "date": "2027-09-12",
+    "gid": "1236",
+    "slug": "disrobe-without-shame"
+  },
+  {
+    "date": "2027-09-13",
+    "gid": "1244",
+    "slug": "the-living-among-you"
+  },
+  {
+    "date": "2027-09-14",
+    "gid": "1036",
+    "slug": "least-greatest"
+  },
+  {
+    "date": "2027-09-15",
+    "gid": "1023",
+    "slug": "built-on-rock"
+  },
+  {
+    "date": "2027-09-16",
+    "gid": "1155",
+    "slug": "at-a-pharisees-house"
+  },
+  {
+    "date": "2027-09-17",
+    "gid": "1224",
+    "slug": "feed-my-sheep"
+  },
+  {
+    "date": "2027-09-18",
+    "gid": "1168",
+    "slug": "your-faith-has-healed-you"
+  },
+  {
+    "date": "2027-09-19",
+    "gid": "1131",
+    "slug": "in-my-fathers-house"
+  },
+  {
+    "date": "2027-09-20",
+    "gid": "1225",
+    "slug": "find-the-interpretation"
+  },
+  {
+    "date": "2027-09-21",
+    "gid": "1263",
+    "slug": "son-of-a-harlot"
+  },
+  {
+    "date": "2027-09-22",
+    "gid": "1232",
+    "slug": "one-out-of-a-thousand"
+  },
+  {
+    "date": "2027-09-23",
+    "gid": "1031",
+    "slug": "new-wineskins"
+  },
+  {
+    "date": "2027-09-24",
+    "gid": "1119",
+    "slug": "the-blind-man-of-bethsaida"
+  },
+  {
+    "date": "2027-09-25",
+    "gid": "1006",
+    "slug": "law-prophets"
+  },
+  {
+    "date": "2027-09-26",
+    "gid": "1101",
+    "slug": "he-has-risen"
+  },
+  {
+    "date": "2027-09-27",
+    "gid": "1060",
+    "slug": "the-least-is-the-greatest"
+  },
+  {
+    "date": "2027-09-28",
+    "gid": "1157",
+    "slug": "the-cost-of-being-a-disciple"
+  },
+  {
+    "date": "2027-09-29",
+    "gid": "1024",
+    "slug": "i-am-willing"
+  },
+  {
+    "date": "2027-09-30",
+    "gid": "1069",
+    "slug": "the-last-will-be-first"
+  },
+  {
+    "date": "2027-10-01",
+    "gid": "1176",
+    "slug": "father-forgive-them"
+  },
+  {
+    "date": "2027-10-02",
+    "gid": "1199",
+    "slug": "those-who-claim-to-see"
+  },
+  {
+    "date": "2027-10-03",
+    "gid": "1212",
+    "slug": "the-world-will-hate-you"
+  },
+  {
+    "date": "2027-10-04",
+    "gid": "1068",
+    "slug": "sell-what-you-have"
+  },
+  {
+    "date": "2027-10-05",
+    "gid": "1012",
+    "slug": "love-your-enemies"
+  },
+  {
+    "date": "2027-10-06",
+    "gid": "1197",
+    "slug": "before-abraham-was"
+  },
+  {
+    "date": "2027-10-07",
+    "gid": "1096",
+    "slug": "put-your-sword-back"
+  },
+  {
+    "date": "2027-10-08",
+    "gid": "1092",
+    "slug": "the-woman-with-the-perfume"
+  },
+  {
+    "date": "2027-10-09",
+    "gid": "1118",
+    "slug": "the-yeast-of-the-pharisees-and-herod"
+  },
+  {
+    "date": "2027-10-10",
+    "gid": "1173",
+    "slug": "beware-the-long-robes"
+  },
+  {
+    "date": "2027-10-11",
+    "gid": "1169",
+    "slug": "zacchaeus"
+  },
+  {
+    "date": "2027-10-12",
+    "gid": "1273",
+    "slug": "i-come-to-abolish-sacrifices"
+  },
+  {
+    "date": "2027-10-13",
+    "gid": "1001",
+    "slug": "jesus-is-tempted"
+  },
+  {
+    "date": "2027-10-14",
+    "gid": "1105",
+    "slug": "exorcism-at-capernium"
+  },
+  {
+    "date": "2027-10-15",
+    "gid": "1054",
+    "slug": "i-have-compassion"
+  },
+  {
+    "date": "2027-10-16",
+    "gid": "1186",
+    "slug": "your-son-will-live"
+  },
+  {
+    "date": "2027-10-17",
+    "gid": "1095",
+    "slug": "gethsemane"
+  },
+  {
+    "date": "2027-10-18",
+    "gid": "1180",
+    "slug": "follow-me"
+  },
+  {
+    "date": "2027-10-19",
+    "gid": "1153",
+    "slug": "the-narrow-door"
+  },
+  {
+    "date": "2027-10-20",
+    "gid": "1015",
+    "slug": "fasting"
+  },
+  {
+    "date": "2027-10-21",
+    "gid": "1152",
+    "slug": "daughter-of-abraham"
+  },
+  {
+    "date": "2027-10-22",
+    "gid": "1149",
+    "slug": "not-peace-but-division"
+  },
+  {
+    "date": "2027-10-23",
+    "gid": "1161",
+    "slug": "two-masters"
+  },
+  {
+    "date": "2027-10-24",
+    "gid": "1198",
+    "slug": "neither-this-man-nor-his-parents"
+  },
+  {
+    "date": "2027-10-25",
+    "gid": "1256",
+    "slug": "the-images-that-came-before-you"
+  },
+  {
+    "date": "2027-10-26",
+    "gid": "1191",
+    "slug": "the-flesh-counts-for-nothing"
+  },
+  {
+    "date": "2027-10-27",
+    "gid": "1227",
+    "slug": "go-to-james"
+  },
+  {
+    "date": "2027-10-28",
+    "gid": "1019",
+    "slug": "good-father"
+  },
+  {
+    "date": "2027-10-29",
+    "gid": "1050",
+    "slug": "you-give-them-something-to-eat"
+  },
+  {
+    "date": "2027-10-30",
+    "gid": "1055",
+    "slug": "the-yeast-of-the-pharisees"
+  },
+  {
+    "date": "2027-10-31",
+    "gid": "1081",
+    "slug": "the-god-of-the-living"
+  },
+  {
+    "date": "2027-11-01",
+    "gid": "1202",
+    "slug": "lazarus-has-fallen-asleep"
+  },
+  {
+    "date": "2027-11-02",
+    "gid": "1083",
+    "slug": "whose-son"
+  },
+  {
+    "date": "2027-11-03",
+    "gid": "1075",
+    "slug": "the-withered-fig-tree"
+  },
+  {
+    "date": "2027-11-04",
+    "gid": "1185",
+    "slug": "food-you-know-nothing-about"
+  },
+  {
+    "date": "2027-11-05",
+    "gid": "1166",
+    "slug": "the-persistent-widow"
+  },
+  {
+    "date": "2027-11-06",
+    "gid": "1151",
+    "slug": "repent-or-perish"
+  },
+  {
+    "date": "2027-11-08",
+    "gid": "1117",
+    "slug": "compassion-for-the-crowd"
+  },
+  {
+    "date": "2027-11-09",
+    "gid": "1238",
+    "slug": "become-passers-by"
+  },
+  {
+    "date": "2027-11-10",
+    "gid": "1116",
+    "slug": "ephphatha"
+  },
+  {
+    "date": "2027-11-11",
+    "gid": "1247",
+    "slug": "blessed-is-the-one-who-has-suffered"
+  },
+  {
+    "date": "2027-11-12",
+    "gid": "1148",
+    "slug": "watchfulness"
+  },
+  {
+    "date": "2027-11-13",
+    "gid": "1218",
+    "slug": "i-said-nothing-in-secret"
+  },
+  {
+    "date": "2027-11-14",
+    "gid": "1242",
+    "slug": "children-of-the-light"
+  },
+  {
+    "date": "2027-11-15",
+    "gid": "1108",
+    "slug": "which-is-lawful"
+  },
+  {
+    "date": "2027-11-16",
+    "gid": "1030",
+    "slug": "mercy-not-sacrifice"
+  },
+  {
+    "date": "2027-11-17",
+    "gid": "1254",
+    "slug": "renounce-power"
+  },
+  {
+    "date": "2027-11-18",
+    "gid": "1018",
+    "slug": "planks"
+  },
+  {
+    "date": "2027-11-19",
+    "gid": "1126",
+    "slug": "the-god-of-the-living"
+  },
+  {
+    "date": "2027-11-20",
+    "gid": "1190",
+    "slug": "the-bread-of-life"
+  },
+  {
+    "date": "2027-11-21",
+    "gid": "1239",
+    "slug": "love-the-tree-or-its-fruit"
+  },
+  {
+    "date": "2027-11-22",
+    "gid": "1233",
+    "slug": "fast-from-the-world"
+  },
+  {
+    "date": "2027-11-23",
+    "gid": "1000",
+    "slug": "the-baptism-of-jesus"
+  },
+  {
+    "date": "2027-11-24",
+    "gid": "1145",
+    "slug": "woes-on-the-pharisees"
+  },
+  {
+    "date": "2027-11-25",
+    "gid": "1109",
+    "slug": "blaspheming-spirit"
+  },
+  {
+    "date": "2027-11-26",
+    "gid": "1219",
+    "slug": "no-power-except-from-above"
+  },
+  {
+    "date": "2027-11-27",
+    "gid": "1009",
+    "slug": "adultery"
+  },
+  {
+    "date": "2027-11-28",
+    "gid": "1051",
+    "slug": "take-courage-it-is-i"
+  },
+  {
+    "date": "2027-11-29",
+    "gid": "1071",
+    "slug": "not-so-with-you"
+  },
+  {
+    "date": "2027-11-30",
+    "gid": "1057",
+    "slug": "deny-yourself-and-follow"
+  },
+  {
+    "date": "2027-12-01",
+    "gid": "1063",
+    "slug": "the-millstone-and-the-hand"
+  },
+  {
+    "date": "2027-12-02",
+    "gid": "1016",
+    "slug": "treasure"
+  },
+  {
+    "date": "2027-12-03",
+    "gid": "1043",
+    "slug": "parable-of-the-sower"
+  },
+  {
+    "date": "2027-12-04",
+    "gid": "1250",
+    "slug": "knowing-the-all"
+  },
+  {
+    "date": "2027-12-05",
+    "gid": "1034",
+    "slug": "the-harvest-is-plentiful"
+  },
+  {
+    "date": "2027-12-06",
+    "gid": "1241",
+    "slug": "the-solitary-will-find-it"
+  },
+  {
+    "date": "2027-12-07",
+    "gid": "1187",
+    "slug": "do-you-want-to-get-well"
+  },
+  {
+    "date": "2027-12-08",
+    "gid": "1215",
+    "slug": "the-hour-has-come"
+  },
+  {
+    "date": "2027-12-09",
+    "gid": "1079",
+    "slug": "the-wedding-banquet"
+  },
+  {
+    "date": "2027-12-10",
+    "gid": "1020",
+    "slug": "narrow-gate"
+  },
+  {
+    "date": "2027-12-11",
+    "gid": "1098",
+    "slug": "three-times"
+  },
+  {
+    "date": "2027-12-12",
+    "gid": "1127",
+    "slug": "beware-the-robe-wearers"
+  },
+  {
+    "date": "2027-12-13",
+    "gid": "1056",
+    "slug": "who-do-you-say-i-am"
+  },
+  {
+    "date": "2027-12-14",
+    "gid": "1032",
+    "slug": "one-touch"
+  },
+  {
+    "date": "2027-12-15",
+    "gid": "1025",
+    "slug": "faith-of-soldier"
+  },
+  {
+    "date": "2027-12-16",
+    "gid": "1007",
+    "slug": "anger-is-murder"
+  },
+  {
+    "date": "2027-12-17",
+    "gid": "1017",
+    "slug": "dont-fret"
+  },
+  {
+    "date": "2027-12-18",
+    "gid": "1011",
+    "slug": "revenge"
+  },
+  {
+    "date": "2027-12-19",
+    "gid": "1209",
+    "slug": "the-way-the-truth-the-life"
+  },
+  {
+    "date": "2027-12-20",
+    "gid": "1265",
+    "slug": "renounce-the-world"
+  },
+  {
+    "date": "2027-12-21",
+    "gid": "1086",
+    "slug": "not-one-stone"
+  },
+  {
+    "date": "2027-12-22",
+    "gid": "1090",
+    "slug": "sheep-and-goats"
+  },
+  {
+    "date": "2027-12-23",
+    "gid": "1046",
+    "slug": "weeds-and-wheat-explained"
+  },
+  {
+    "date": "2027-12-24",
+    "gid": "1129",
+    "slug": "she-did-what-she-could"
+  },
+  {
+    "date": "2027-12-25",
+    "gid": "1137",
+    "slug": "the-widows-son-at-nain"
+  },
+  {
+    "date": "2027-12-26",
+    "gid": "1170",
+    "slug": "the-ten-minas"
+  },
+  {
+    "date": "2027-12-27",
+    "gid": "1123",
+    "slug": "greatness-is-downward"
+  },
+  {
+    "date": "2027-12-28",
+    "gid": "1124",
+    "slug": "your-faith-has-healed-you"
+  },
+  {
+    "date": "2027-12-29",
+    "gid": "1234",
+    "slug": "drunk-and-blind"
+  },
+  {
+    "date": "2027-12-30",
+    "gid": "1110",
+    "slug": "lamps"
+  },
+  {
+    "date": "2027-12-31",
+    "gid": "1112",
+    "slug": "mustard-seed"
+  }
+]

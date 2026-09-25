@@ -1,0 +1,35 @@
+services:
+  # Static site — serves all generated HTML pages
+  - type: web
+    name: jesussaid
+    runtime: static
+    buildCommand: node scripts/generate.js
+    staticPublishPath: public
+    envVars:
+      - key: SHEET_ID
+        value: 11fKfDhi8jed11m36GfZWjATQl_UxdylXbL1VJQnz8wo
+    routes:
+      - type: rewrite
+        source: /today
+        destination: /today/index.html
+      - type: rewrite
+        source: /get
+        destination: /get/index.html
+    headers:
+      - path: /sw.js
+        name: Cache-Control
+        value: no-cache
+      - path: /manifest.json
+        name: Cache-Control
+        value: public, max-age=86400
+
+  # Nightly cron — rebuilds the site from the live Google Sheet
+  - type: cron
+    name: jesussaid-rebuild
+    runtime: node
+    schedule: "0 4 * * *"   # 4am UTC = 11pm CST — rebuilds before morning notifications
+    buildCommand: npm install
+    startCommand: node scripts/generate.js
+    envVars:
+      - key: SHEET_ID
+        value: 11fKfDhi8jed11m36GfZWjATQl_UxdylXbL1VJQnz8wo

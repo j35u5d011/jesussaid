@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not One Stone — JesusSaid</title>
+  <meta name="description" content="Not one stone on another. The temple would fall — and did, in a generation. His words did not.">
+  <meta property="og:title" content="Not One Stone — JesusSaid">
+  <meta property="og:description" content="Not one stone on another. The temple would fall — and did, in a generation. His words did not.">
+  <meta property="og:url" content="https://jesussaid.app/verse/not-one-stone">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/icons/icon-192.png">
+  <meta name="theme-color" content="#1d4ed8">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #1d4ed8;
+      --fg: #ffffff;
+      --card-bg: rgba(255,255,255,0.08);
+      --card-fg: #ffffff;
+      --radius: 12px;
+      --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100vh;
+      padding: 0 0 120px 0;
+    }
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 16px 0;
+    }
+    .logo { font-size: 14px; font-weight: 700; opacity: 0.7; letter-spacing: 0.05em; text-decoration: none; color: inherit; }
+    .hero {
+      padding: 32px 16px 24px;
+    }
+    .source-line {
+      font-size: 13px;
+      opacity: 0.65;
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+    .teaching-title {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    .jesus-words {
+      font-size: 20px;
+      line-height: 1.6;
+      font-weight: 400;
+      font-style: italic;
+      border-left: 3px solid var(--fg);
+      padding-left: 16px;
+      opacity: 0.95;
+    }
+    .core-message {
+      margin: 20px 16px 0;
+      font-size: 15px;
+      opacity: 0.75;
+      line-height: 1.5;
+      font-style: italic;
+    }
+    .action-bar {
+      display: flex;
+      gap: 10px;
+      padding: 24px 16px 0;
+    }
+    .btn {
+      flex: 1;
+      padding: 14px 10px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+    }
+    .btn-primary {
+      background: var(--fg);
+      color: var(--bg);
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--fg);
+      border: 2px solid var(--fg);
+    }
+    .divider {
+      height: 1px;
+      background: var(--fg);
+      opacity: 0.15;
+      margin: 28px 16px;
+    }
+    .parallels { padding: 0 16px; }
+    .parallels-heading {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.6;
+      margin-bottom: 16px;
+    }
+    .parallel-card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .source-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .parallel-ref {
+      font-size: 12px;
+      opacity: 0.6;
+      margin-bottom: 8px;
+    }
+    .parallel-words {
+      font-size: 15px;
+      line-height: 1.6;
+      font-style: italic;
+    }
+    .section-heading {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.6;
+      margin-bottom: 12px;
+    }
+    .context-section { padding: 0 16px; }
+    .context-body {
+      font-size: 15px;
+      line-height: 1.7;
+      opacity: 0.85;
+    }
+    .context-body p + p { margin-top: 1em; }
+    .sticky-bar {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: var(--bg);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding: 12px 16px;
+      display: flex;
+      gap: 10px;
+    }
+    @media (min-width: 600px) {
+      .hero, .action-bar, .parallels, .context-section, .core-message { max-width: 600px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; }
+      .sticky-bar { max-width: 600px; left: 50%; transform: translateX(-50%); border-radius: 12px 12px 0 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <a href="/" class="logo">JESUSSAID</a>
+  </div>
+
+  <div class="hero">
+    <p class="source-line">Matthew 24:2-35</p>
+    <h1 class="teaching-title">Not One Stone</h1>
+    <blockquote class="jesus-words">Do you see all these things? Truly I tell you, not one stone here will be left on another; everyone will be thrown down. Watch out that no one deceives you. For many will come in my name, claiming, ‘I am the Messiah,’ and will deceive many. You will hear of wars and rumors of wars, but see to it that you are not alarmed. Such things must happen, but the end is still to come. Nation will rise against nation, and kingdom against kingdom. There will be famines and earthquakes in various places. All these are the beginning of birth pains. Then you will be handed over to be persecuted and put to death, and you will be hated by all nations because of me. At that time many will turn away from the faith and will betray and hate each other, and many false prophets will appear and deceive many people. Because of the increase of wickedness, the love of most will grow cold, but the one who stands firm to the end will be saved. And this gospel of the kingdom will be preached in the whole world as a testimony to all nations, and then the end will come. So when you see standing in the holy place ‘the abomination that causes desolation,’ spoken of through the prophet Daniel – let the reader understand – then let those who are in Judea flee to the mountains. Let no one on the housetop go down to take anything out of the house. Let no one in the field go back to get their cloak. How dreadful it will be in those days for pregnant women and nursing mothers! Pray that your flight will not take place in winter or on the Sabbath. For then there will be great distress, unequaled from the beginning of the world until now – and never to be equaled again. If those days had not been cut short, no one would survive, but for the sake of the elect those days will be shortened. At that time if anyone says to you, ‘Look, here is the Messiah!’ or, ‘There he is!’ do not believe it. For false messiahs and false prophets will appear and perform great signs and wonders to deceive, if possible, even the elect. See, I have told you ahead of time. So if anyone tells you, ‘There he is, out in the wilderness,’ do not go out; or ‘Here he is, in the inner rooms,’ do not believe it. For as lightning that comes from the east is visible even in the west, so will be the coming of the Son of Man. Wherever there is a carcass, there the vultures will gather. Immediately after the distress of those days the sun will be darkened, and the moon will not give its light; the stars will fall from the sky, and the heavenly bodies will be shaken. Then will appear the sign of the Son of Man in heaven. And then all the peoples of the earth will mourn when they see the Son of Man coming on the clouds of heaven, with power and great glory. And he will send his angels with a loud trumpet call, and they will gather his elect from the four winds, from one end of the heavens to the other. Now learn this lesson from the fig tree: As soon as its twigs get tender and its leaves come out, you know that summer is near. Even so, when you see all these things, you will know that it is near, right at the door. Truly I tell you, this generation will certainly not pass away until all these things have happened. Heaven and earth will pass away, but my words will never pass away.”</blockquote>
+  </div>
+
+  <p class="core-message">Jesus predicts the destruction of the temple and warns his followers to watch, endure, and not be deceived by false messiahs during the coming upheaval.</p>
+
+  <div class="action-bar">
+    <button class="btn btn-primary" onclick="shareVerse()">Share This</button>
+    <a href="/get" class="btn btn-secondary">Get Daily Verse</a>
+  </div>
+
+  <div class="divider"></div>
+    <section class="parallels">
+      <h2 class="parallels-heading">How They All Heard It</h2>
+      
+        <div class="parallel-card">
+          <span class="source-badge" style="background:#1a7a4a">Mark</span>
+          <p class="parallel-ref">Mark 13:2-31</p>
+          <blockquote class="parallel-words">Do you see all these great buildings? Not one stone here will be left on another; everyone will be thrown down. Watch out that no one deceives you. Many will come in my name, claiming, ‘I am he,’ and will deceive many. When you hear of wars and rumors of wars, do not be alarmed. Such things must happen, but the end is still to come. Nation will rise against nation, and kingdom against kingdom. There will be earthquakes in various places, and famines. These are the beginning of birth pains. You must be on your guard. You will be handed over to the local councils and flogged in the synagogues. On account of me you will stand before governors and kings as witnesses to them. And the gospel must first be preached to all nations. Whenever you are arrested and brought to trial, do not worry beforehand about what to say. Just say whatever is given you at the time, for it is not you speaking, but the Holy Spirit. Brother will betray brother to death, and a father his child. Children will rebel against their parents and have them put to death. Everyone will hate you because of me, but the one who stands firm to the end will be saved. When you see ‘the abomination that causes desolation’ standing where it does not belong – let the reader understand – then let those who are in Judea flee to the mountains. Let no one on the housetop go down or enter he house to take anything out. Let no one in the field go back to get their cloak. How dreadful it will be in those days for pregnant women and nursing mothers! Pray that this will not take place in winter, because those will be days of distress unequaled from the beginning, when God created the world, until now – and never to be equaled again. If the Lord had not cut short those days, no one would survive. But for the sake of the elect, whom he has chosen, he has shortened them. At that time if anyone says to you, ‘Look, here is the Messiah!’ or, ‘Look, there he is!’ do not believe it. For false messiahs and false prophets will appear and perform signs and wonders to deceive, if possible, even the elect. So be on your guard; I have told you everything ahead of time. But in those days, following that distress, the sun will be darkened, and the moon will not give its light; the stars will fall from the sky, and the heavenly bodies will be shaken. At that time people will see the Son of Man coming in clouds with great power and glory. And he will send his angels and gather his elect from the four winds, from the ends of the earth to the ends of the heavens. Now learn this lesson from the fig tree: As soon as its twigs get tender and its leaves come out, you know that summer is near. Even so, when you see these things happening, you know that it is near, right at the door. Truly I tell you, this generation will certainly not pass away until all these things have happened. Heaven and earth will pass away, but my words will never pass away.”</blockquote>
+        </div>
+      
+        <div class="parallel-card">
+          <span class="source-badge" style="background:#7a3a1a">Luke</span>
+          <p class="parallel-ref">Luke 21:6-36</p>
+          <blockquote class="parallel-words">As for what you see here, the time will come when not one stone will be left on another; every one of them will be thrown down. Watch out that you are not deceived. For many will com in my name, claiming, ‘I am he,’ and, ‘The time is near.’ Do not follow them. When you hear of wars and uprisings, do not be frightened. These things must happen first, but the end will not come right away. Nation will rise against nation, and kingdom against kingdom. There will be great earthquakes, famines and pestilences in various places, and fearful events and great signs from heaven. But before all this, they will seize you and persecute you. They will hand you over to synagogues and put you in prison, and you will be brought before kings and governors, and all on account of my name. And so you will bear testimony to me. But make up your mind not to worry beforehand how you will defend yourselves. For I will give you words and wisdom that none of your adversaries will be able to resist or contradict. You will be betrayed even by parents, brothers and sisters, relatives and friends, and they will put some of you to death. Everyone will hate you because of me. But not a hair of your head will perish. Stand firm, and you will win life. When you see Jerusalem being surrounded by armies, you will know that its desolation is near. Then let those who are in Judea flee to the mountains, let those in the city get out, and let those in the country not enter the city. For this is the time of punishment in fulfillment of all that has been written. How dreadful it will be in those days for pregnant women and nursing mothers! There will be great distress in the land and wrath against this people. They will fall by the sword and will be taken as prisoners to all the nations. Jerusalem will be trampled on by the Gentiles until the time of the Gentiles are fulfilled. There will be signs in the sun, moon and stars. On the earth, nations will be in anguish and perplexity at the roaring and tossing of the sea. People will faint from terror, apprehensive of what is coming on the world, for the heavenly bodies will be shaken. At that time they will see the Son of Man coming in a cloud with power and great glory. When these things begin to take place, stand up and lift up your heads, because your redemption is drawing near. Look at the fig tree and all the trees. When they sprout leaves, you can see for yourselves and know that summer is near. Even so, when you see these things happening, you know that the kingdom of God is near. Truly I tell you, this generation will certainly not pass away until all these things have happened. Heaven and earth will pass away, but my words will never pass away. Be careful, or your hearts will be weighed down with carousing, drunkenness and the anxieties of life, and that day will close on you suddenly like a trap. For it will come on all those who live on the face of the whole earth. Be always on the watch, and pray that you may be able to escape all that is about to happen, and that you man be able to stand before the Son of Man.”</blockquote>
+        </div>
+      
+    </section>
+  
+  <div class="divider"></div>
+    <section class="context-section">
+      <h2 class="section-heading">Context</h2>
+      <div class="context-body"><p>The disciples point out the temple's massive stones — Herod's rebuild was one of the wonders of the ancient world. Jesus tells them plainly that not one stone will be left on another. In 70 CE, forty years later, Titus's legions did exactly that. Jesus's prediction was not cosmic — it was political and precise. He had already read the trajectory. A corrupt temple leadership, a violent zealot movement, and an unforgiving Roman empire were on collision course, and the outcome was written on the wall for anyone paying attention. Most of what follows in the Olivet discourse is Jesus telling his followers how to survive that specific coming catastrophe. Flee to the mountains. Do not turn back for your cloak. Do not believe anyone who says "here is the Messiah." History records that the Jerusalem church did flee — to Pella, across the Jordan — before the siege, because they took him at his word.</p></div>
+    </section>
+  
+
+  <div class="sticky-bar">
+    <button class="btn btn-primary" onclick="shareVerse()">Share This</button>
+    <a href="/get" class="btn btn-secondary">Get Daily Verse</a>
+  </div>
+
+  <script>
+    function shareVerse() {
+      const text = "Not one stone on another. The temple would fall — and did, in a generation. His words did not.";
+      const url = window.location.href;
+      if (navigator.share) {
+        navigator.share({ text: '"' + text + '"', url });
+      } else {
+        navigator.clipboard.writeText('"' + text + '" ' + url)
+          .then(() => alert('Copied to clipboard'));
+      }
+    }
+    // Register service worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+    // Track source param
+    const src = new URLSearchParams(location.search).get('src');
+    if (src) sessionStorage.setItem('jesussaid_src', src);
+  </script>
+</body>
+</html>

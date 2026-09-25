@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Today's Verse — JesusSaid</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0f0f0f">
+  <style>
+    body { font-family: -apple-system, sans-serif; background: #0f0f0f; color: #fff; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+    p { opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <p>Loading today's verse...</p>
+  <script>
+    async function redirect() {
+      try {
+        const res = await fetch('/schedule.json');
+        const schedule = await res.json();
+        const today = new Date().toISOString().split('T')[0];
+        const entry = schedule.find(s => s.date === today);
+        if (entry) {
+          window.location.replace('/verse/' + entry.slug);
+        } else {
+          // fallback: first entry
+          window.location.replace('/verse/' + schedule[0].slug);
+        }
+      } catch(e) {
+        window.location.replace('/');
+      }
+    }
+    redirect();
+  </script>
+</body>
+</html>

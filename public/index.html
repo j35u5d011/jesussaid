@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JesusSaid — The Words of Jesus, Every Day</title>
+  <meta name="description" content="One verse from Jesus, every day. Push notification to your phone. No app store required.">
+  <meta property="og:title" content="JesusSaid — The Words of Jesus, Every Day">
+  <meta property="og:description" content="One verse from Jesus, every day. Push notification to your phone. No app store required.">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/icons/icon-192.png">
+  <meta name="theme-color" content="#1a1a1a">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    /* Hero */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px 24px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .wordmark {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      opacity: 0.5;
+      margin-bottom: 48px;
+    }
+    .hero-verse {
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 1.5;
+      font-style: italic;
+      margin-bottom: 12px;
+    }
+    .hero-ref {
+      font-size: 13px;
+      opacity: 0.45;
+      margin-bottom: 48px;
+    }
+    .hero-cta {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    .hero-sub {
+      font-size: 16px;
+      opacity: 0.6;
+      line-height: 1.6;
+      margin-bottom: 36px;
+    }
+    .btn-hero {
+      display: block;
+      background: #ffffff;
+      color: #000000;
+      padding: 18px 24px;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      margin-bottom: 12px;
+    }
+    .btn-ghost {
+      display: block;
+      background: transparent;
+      color: #ffffff;
+      padding: 16px 24px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: none;
+      border: 2px solid rgba(255,255,255,0.25);
+    }
+
+    /* Phone mockup section */
+    .mockup-section {
+      background: #1a1a1a;
+      padding: 64px 24px;
+    }
+    .mockup-inner {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      opacity: 0.45;
+      margin-bottom: 24px;
+    }
+    .feature-list {
+      list-style: none;
+    }
+    .feature-list li {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .feature-list li:last-child { border-bottom: none; }
+    .feature-icon { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+
+    /* Sources section */
+    .sources-section {
+      padding: 64px 24px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .source-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .chip {
+      padding: 6px 14px;
+      border-radius: 99px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    /* Footer CTA */
+    .footer-cta {
+      background: #ffffff;
+      color: #000000;
+      padding: 64px 24px;
+      text-align: center;
+    }
+    .footer-cta h2 { font-size: 28px; font-weight: 800; margin-bottom: 12px; }
+    .footer-cta p { font-size: 16px; opacity: 0.6; margin-bottom: 28px; }
+    .btn-dark {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      padding: 16px 32px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="wordmark">JESUSSAID</div>
+    <p class="hero-verse">"The kingdom of God is within you."</p>
+    <p class="hero-ref">Luke 17:21</p>
+    <h1 class="hero-cta">His words.<br>Every morning.</h1>
+    <p class="hero-sub">One teaching from Jesus — delivered to your phone, no app store required.</p>
+    <a href="/get" class="btn-hero">Get the Daily Verse</a>
+    <a href="/verse/the-coming-of-the-kingdom-of-god" class="btn-ghost">Read Today's Verse</a>
+  </section>
+
+  <section class="mockup-section">
+    <div class="mockup-inner">
+      <p class="section-label">How it works</p>
+      <ul class="feature-list">
+        <li><span class="feature-icon">📲</span><span>Add to your home screen in seconds — no App Store, no account, no credit card</span></li>
+        <li><span class="feature-icon">🌅</span><span>One verse from Jesus arrives every morning at 7am</span></li>
+        <li><span class="feature-icon">📖</span><span>Tap to read the full teaching — with context, parallels from Thomas and other early texts</span></li>
+        <li><span class="feature-icon">↗️</span><span>Share the verse with one tap — to anyone, anywhere</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sources-section">
+    <p class="section-label">Sources</p>
+    <p style="font-size:15px;line-height:1.6;opacity:0.7;margin-bottom:4px;">274 unique teachings from Jesus, drawn from seven early texts — canonical and gnostic side by side.</p>
+    <div class="source-chips">
+      <span class="chip" style="background:#1a56a0">Matthew</span>
+      <span class="chip" style="background:#1a7a4a">Mark</span>
+      <span class="chip" style="background:#7a3a1a">Luke</span>
+      <span class="chip" style="background:#4a1a7a">John</span>
+      <span class="chip" style="background:#b45309">Gospel of Thomas</span>
+      <span class="chip" style="background:#6b21a8">Gospel of the Ebionites</span>
+      <span class="chip" style="background:#be185d">Gospel of Mary</span>
+      <span class="chip" style="background:#334155">Gospel of Peter</span>
+    </div>
+  </section>
+
+  <section class="footer-cta">
+    <h2>Start tomorrow morning.</h2>
+    <p>Free. Private. No spam.</p>
+    <a href="/get" class="btn-dark">Add to My Phone</a>
+  </section>
+
+  <script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+    const src = new URLSearchParams(location.search).get('src');
+    if (src) sessionStorage.setItem('jesussaid_src', src);
+  </script>
+</body>
+</html>
